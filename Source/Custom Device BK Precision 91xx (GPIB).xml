@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <AddMenu>
+    <eng>BK Precision 91xx (GPIB)</eng>
+    <loc>BK Precision 91xx (GPIB)</loc>
+  </AddMenu>
+  <Version>2.0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>0CA94903-2B37-694B-8FEF-5D9F247E495B</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\BK Precision 91xx (GPIB)\BK Precision 91xx (GPIB) Configuration.llb\BK Precision 91xx (GPIB) Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <Source>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\BK Precision 91xx (GPIB)\BK Precision 91xx (GPIB) Engine.llb\BK Precision 91xx (GPIB) RT Driver VI.vi</Path>
+    </Source>
+    <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\BK Precision 91xx (GPIB)\BK Precision 91xx (GPIB) Engine.llb\BK Precision 91xx (GPIB) RT Driver VI.vi</RealTimeSystemDestination>
+  </CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>BK Precision 91xx (GPIB)</eng>
+        <loc>BK Precision 91xx (GPIB)</loc>
+      </Name>
+      <GUID>0CA94903-2B37-694B-8FEF-5D9F247E495B</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\BK Precision 91xx (GPIB)\BK Precision 91xx (GPIB) Configuration.llb\BK Precision 91xx (GPIB) Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
